@@ -4,7 +4,7 @@ __author__ = 'lideqiang87@gmail.com'
 
 from models import User, Blog, Comment
 
-from config import db
+from transwarp import db
 
 db.create_engine(user='root', password='123456', database='python_flask')
 

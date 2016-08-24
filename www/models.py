@@ -8,8 +8,8 @@ Models for user, blog, comment.
 
 import time, uuid
 
-from config.db import next_id
-from config.orm import Model, StringField, BooleanField, TextField, IntegerField
+from transwarp.db import next_id
+from transwarp.orm import Model, StringField, BooleanField, TextField, IntegerField
 
 class User(Model):
     __table__ = 'users'
